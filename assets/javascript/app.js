@@ -1,0 +1,1 @@
+var countDown = 30
