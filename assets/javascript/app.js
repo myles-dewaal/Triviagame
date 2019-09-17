@@ -1,1 +1,1 @@
-var countDown = 30
+var countDown = 30;
