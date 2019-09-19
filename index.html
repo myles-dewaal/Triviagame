@@ -30,6 +30,8 @@
         </div>
         <!-- Answers 1964, 93, July 17 1955, Blastiose, 114.4 -->
 
+        <form id="quiz" name="quiz">
+
         <h3>What year was the company Nike founded?</h3>
 
         <input type="radio" name="question1" value="1987"> <span class="btntext">1987</span>
@@ -64,11 +66,13 @@
         <input type="radio" name="question5" value="98.9 Biilion"> <span class="btntext">98.9 Billion</span>
         <input type="radio" name="question5" value="114.4 Biilion"> <span class="btntext">114.4 Billion</span>
         <input type="radio" name="question5" value="105.2 Biilion"> <span class="btntext">105.2 Billion</span>
-        <br>  
-        <input class="btn btn-primary" type="submit" value="Submit" onclick ="check();">
-        <h3 class="score">Your Score: </h3>
-    </div>
-    <script src="assets\javascript\app.js"> </script>
+        <br>
+        <input class="btn btn-primary submit-button" type="submit" value="Submit">
+        </form>
+        <div id="after_submit">
+            <p id="number_correct"></p>
+        </div>
+        <script src="assets\javascript\app.js"> </script>
 </body>
 
 </html>

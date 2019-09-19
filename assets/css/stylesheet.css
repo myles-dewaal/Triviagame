@@ -11,4 +11,7 @@ h3 {
 .btntext {
     color: white;
 }
-
+.jumbotron {
+    background-color: black;
+    color: white;
+}
