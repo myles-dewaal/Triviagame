@@ -20,17 +20,17 @@
                         <p class="lead">This is going to be the greatest test of your random knowledge. If you get 100%,
                             your IQ
                             is
-                            super high! (Not an actual test for IQ, please consult a professional if you'd like to know
+                            super high! Answer them all or it wont give you a proper score! (Not an actual test for IQ, please consult a professional if you'd like to know
                             your
                             actually score.)</p>
                     </div>
                 </div>
             </div>
-            <h1 class="timeremaining"></h1>
+            <h1 class="timeremaining startUp" style="display: none"></h1>
         </div>
         <!-- Answers 1964, 93, July 17 1955, Blastiose, 114.4 -->
-
-        <form id="quiz" name="quiz">
+        <button class="startUp" id="startButton">Start</button>
+        <form class="startUp" id="quiz" name="quiz" style="display: none">
 
         <h3>What year was the company Nike founded?</h3>
 
@@ -48,7 +48,7 @@
 
         <h3>What date did Disneyland open in California?</h3>
 
-        <input type="radio" name="question3" value="July 17, 1955"> <span class="btntext">July 17, 1955</span>
+        <input type="radio" name="question3" value="1955"> <span class="btntext">July 17, 1955</span>
         <input type="radio" name="question3" value="June 1, 1957"> <span class="btntext">June 5, 1956</span>
         <input type="radio" name="question3" value="March 21, 1954"> <span class="btntext">September 13, 1957</span>
         <input type="radio" name="question3" value="August 17, 1956"> <span class="btntext">August 2, 1954</span>
@@ -64,7 +64,7 @@
 
         <input type="radio" name="question5" value="100.5 Biilion"> <span class="btntext">100.5 Billion</span>
         <input type="radio" name="question5" value="98.9 Biilion"> <span class="btntext">98.9 Billion</span>
-        <input type="radio" name="question5" value="114.4 Biilion"> <span class="btntext">114.4 Billion</span>
+        <input type="radio" name="question5" value="114.4"> <span class="btntext">114.4 Billion</span>
         <input type="radio" name="question5" value="105.2 Biilion"> <span class="btntext">105.2 Billion</span>
         <br>
         <input class="btn btn-primary submit-button" type="submit" value="Submit">
